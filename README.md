@@ -4,11 +4,14 @@ restproxy
 Application to simulate rest calls
 
 Usage
-To store a value that needs to be returned
-http://<domain>:<port>/<contextroot>/store/{somename}
 
-To restore
-http://<domain>:<port>/<contextroot>/restore/{somename}
+To store a value that needs to be returned (POST)
+
+http://&lt;domain&gt;:&lt;port&gt;/&lt;contextroot&gt;/store/{somename}
+
+To restore (GET)
+
+http://&lt;domain&gt;:&lt;port&gt;/&lt;contextroot&gt;/restore/{somename}
 
 
 
